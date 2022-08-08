@@ -1,0 +1,57 @@
+body, html{
+    height: 100%;
+    background-color: aquamarine;
+}
+
+table{
+    background-color: blue;
+}
+
+.hh1{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin: auto;
+    padding: auto;
+}
+
+header{
+    padding: 25px 0;
+}
+
+img {
+    width: 100px;
+  }
+
+.menu{
+    
+    text-align: right;
+    width: 83%;
+    padding-top: 40px;
+    font-size: 1.2em;
+    color: rgb(241, 241, 233);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 17px;
+    transition: 2s;
+}
+
+.menu a:hover{
+    color: aliceblue;
+    text-shadow: 0 0 10px white;
+
+}
+
+fieldset {
+    width: 500px;
+  }
